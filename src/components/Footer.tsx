@@ -1,5 +1,6 @@
 import React from 'react';
 import { Package, Instagram, Twitter, Facebook, Linkedin, Mail, Phone } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Footer: React.FC = () => {
   return (
@@ -110,8 +111,7 @@ const Footer: React.FC = () => {
         <div className="border-t border-white/10 pt-8 text-center text-white/50 text-sm">
           <p>&copy; {new Date().getFullYear()} SendSafe. All rights reserved.</p>
           <div className="flex justify-center gap-6 mt-4">
-            <a href="#" className="hover:text-[#00ff9d] transition-colors duration-300">Privacy Policy</a>
-            <a href="#" className="hover:text-[#00ff9d] transition-colors duration-300">Terms of Service</a>
+            <Link to="/terms" className="hover:text-[#00ff9d] transition-colors duration-300">Terms & Privacy</Link>
             <a href="#" className="hover:text-[#00ff9d] transition-colors duration-300">Cookie Policy</a>
           </div>
         </div>
