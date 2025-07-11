@@ -32,7 +32,7 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ icon, title, description, del
   return (
     <div 
       ref={cardRef}
-      className="bg-gradient-to-br from-white/5 to-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:border-white/20 transition-all duration-500 group hover:shadow-[0_0_20px_rgba(157,0,255,0.3)] opacity-0 transform translate-y-10"
+      className="bg-gradient-to-br from-white/5 to-white/10 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:border-white/20 transition-all duration-500 group hover:shadow-[0_0_20px_rgba(0,255,157,0.3)] opacity-0 transform translate-y-10"
       style={{ 
         transitionDelay: `${delay}s`,
         transitionProperty: 'opacity, transform',
@@ -40,11 +40,11 @@ const FeatureCard: React.FC<FeatureCardProps> = ({ icon, title, description, del
       }}
     >
       <div className="relative inline-block mb-4">
-        <div className="absolute -inset-2 bg-gradient-to-r from-[#ff00ff]/40 to-[#00ff9d]/40 rounded-full blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+        <div className="absolute -inset-2 bg-gradient-to-r from-[#00ff9d]/40 to-[#22c55e]/40 rounded-full blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
         {icon}
       </div>
       
-      <h3 className="text-xl font-semibold mb-3 group-hover:text-[#00ff9d] transition-colors duration-300">
+      <h3 className="text-xl font-semibold mb-3 group-hover:text-[#22c55e] transition-colors duration-300">
         {title}
       </h3>
       

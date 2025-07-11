@@ -25,44 +25,64 @@ const Features: React.FC = () => {
 
   const features = [
     {
-      icon: <Lock className="w-10 h-10 text-[#ff00ff]" />,
+      icon: <Lock className="w-10 h-10 text-[#00ff9d]" />,
       title: "Privacy Protection",
       description: "Keep your address private and secure. No need to share your location with strangers."
     },
     {
-      icon: <UserCheck className="w-10 h-10 text-[#00ff9d]" />,
+      icon: <UserCheck className="w-10 h-10 text-[#22c55e]" />,
       title: "Username Delivery",
       description: "Send packages to usernames instead of physical addresses. Simple and secure."
     },
     {
-      icon: <Gift className="w-10 h-10 text-[#9d00ff]" />,
+      icon: <Gift className="w-10 h-10 text-[#16a34a]" />,
       title: "Digital Gifts",
       description: "Send love and appreciation with digital gifts. Make every delivery special."
     },
     {
-      icon: <Users className="w-10 h-10 text-[#ff00ff]" />,
+      icon: <Users className="w-10 h-10 text-[#00ff9d]" />,
       title: "Community Hub",
       description: "Connect with others, share moments, and spread joy through our vibrant community."
     },
     {
-      icon: <Heart className="w-10 h-10 text-[#00ff9d]" />,
+      icon: <Heart className="w-10 h-10 text-[#22c55e]" />,
       title: "Express Care",
       description: "Show you care with personalized digital messages and virtual gifts."
     },
     {
-      icon: <Star className="w-10 h-10 text-[#9d00ff]" />,
+      icon: <Star className="w-10 h-10 text-[#16a34a]" />,
       title: "Special Moments",
       description: "Create memorable experiences with custom digital celebrations."
     },
     {
-      icon: <Truck className="w-10 h-10 text-[#ff00ff]" />,
-      title: "Inter-State",
-      description: "Reliable delivery service across different states."
+      icon: <Truck className="w-10 h-10 text-[#00ff9d]" />,
+      title: "Bulk Interstate Delivery",
+      description: "Efficient bulk delivery services across state lines with competitive pricing."
     },
     {
-      icon: <Globe className="w-10 h-10 text-[#00ff9d]" />,
-      title: "International",
-      description: "Send packages worldwide with our global network."
+      icon: <Globe className="w-10 h-10 text-[#22c55e]" />,
+      title: "International Shipping",
+      description: "Send packages worldwide with our global network and customs expertise."
+    },
+    {
+      icon: <Package className="w-10 h-10 text-[#16a34a]" />,
+      title: "Same Day Delivery",
+      description: "Express same-day delivery service for urgent packages and time-sensitive items."
+    },
+    {
+      icon: <MapPin className="w-10 h-10 text-[#00ff9d]" />,
+      title: "Truck Booking",
+      description: "Book dedicated trucks for large shipments and specialized cargo requirements."
+    },
+    {
+      icon: <Zap className="w-10 h-10 text-[#22c55e]" />,
+      title: "Vendor Fulfillment",
+      description: "Streamlined vendor management and fulfillment services for businesses."
+    },
+    {
+      icon: <DollarSign className="w-10 h-10 text-[#16a34a]" />,
+      title: "Import & Export",
+      description: "Complete import and export services with customs clearance and documentation."
     }
   ];
 
@@ -74,7 +94,7 @@ const Features: React.FC = () => {
     >
       {/* Background decorative elements */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden">
-        <div className="absolute top-1/3 left-1/5 w-72 h-72 bg-[#9d00ff]/10 rounded-full blur-3xl"></div>
+        <div className="absolute top-1/3 left-1/5 w-72 h-72 bg-[#22c55e]/10 rounded-full blur-3xl"></div>
         <div className="absolute bottom-1/4 right-1/5 w-96 h-96 bg-[#00ff9d]/10 rounded-full blur-3xl"></div>
       </div>
 
@@ -83,7 +103,7 @@ const Features: React.FC = () => {
           <h2 className="text-3xl md:text-5xl font-bold mb-4">
             More Than Just Delivery
           </h2>
-          <div className="h-1 w-24 bg-gradient-to-r from-[#ff00ff] to-[#00ff9d] mx-auto"></div>
+          <div className="h-1 w-24 bg-gradient-to-r from-[#00ff9d] to-[#22c55e] mx-auto"></div>
           <p className="text-xl text-white/80 max-w-2xl mx-auto mt-6">
             SendSafe transforms how you connect and share with others. From secure deliveries to digital gifts, we're building a community that celebrates every moment.
           </p>

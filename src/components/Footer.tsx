@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
     <footer className="bg-black border-t border-white/10 pt-16 pb-8 relative overflow-hidden">
       {/* Decorative elements */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden">
-        <div className="absolute bottom-0 left-1/4 w-64 h-64 bg-[#ff00ff]/5 rounded-full blur-3xl"></div>
+        <div className="absolute bottom-0 left-1/4 w-64 h-64 bg-[#22c55e]/5 rounded-full blur-3xl"></div>
         <div className="absolute top-0 right-1/4 w-80 h-80 bg-[#00ff9d]/5 rounded-full blur-3xl"></div>
       </div>
       
@@ -16,10 +16,10 @@ const Footer: React.FC = () => {
           <div>
             <div className="flex items-center gap-2 mb-6">
               <div className="relative">
-                <Package className="h-8 w-8 text-[#ff00ff]" />
-                <div className="absolute -inset-1 bg-[#00ff9d] blur-sm opacity-50 rounded-full"></div>
+                <Package className="h-8 w-8 text-[#00ff9d]" />
+                <div className="absolute -inset-1 bg-[#22c55e] blur-sm opacity-50 rounded-full"></div>
               </div>
-              <h2 className="text-2xl font-bold bg-gradient-to-r from-[#ff00ff] to-[#00ff9d] text-transparent bg-clip-text">
+              <h2 className="text-2xl font-bold bg-gradient-to-r from-[#00ff9d] to-[#22c55e] text-transparent bg-clip-text">
                 SendSafe
               </h2>
             </div>
@@ -29,16 +29,16 @@ const Footer: React.FC = () => {
             </p>
             
             <div className="flex gap-4">
-              <a href="#" className="w-10 h-10 bg-white/5 rounded-full flex items-center justify-center hover:bg-[#ff00ff]/20 transition-colors duration-300">
+              <a href="#" className="w-10 h-10 bg-white/5 rounded-full flex items-center justify-center hover:bg-[#00ff9d]/20 transition-colors duration-300">
                 <Instagram className="w-5 h-5" />
               </a>
-              <a href="#" className="w-10 h-10 bg-white/5 rounded-full flex items-center justify-center hover:bg-[#00ff9d]/20 transition-colors duration-300">
+              <a href="#" className="w-10 h-10 bg-white/5 rounded-full flex items-center justify-center hover:bg-[#22c55e]/20 transition-colors duration-300">
                 <Twitter className="w-5 h-5" />
               </a>
-              <a href="#" className="w-10 h-10 bg-white/5 rounded-full flex items-center justify-center hover:bg-[#9d00ff]/20 transition-colors duration-300">
+              <a href="#" className="w-10 h-10 bg-white/5 rounded-full flex items-center justify-center hover:bg-[#16a34a]/20 transition-colors duration-300">
                 <Facebook className="w-5 h-5" />
               </a>
-              <a href="#" className="w-10 h-10 bg-white/5 rounded-full flex items-center justify-center hover:bg-[#ff00ff]/20 transition-colors duration-300">
+              <a href="#" className="w-10 h-10 bg-white/5 rounded-full flex items-center justify-center hover:bg-[#00ff9d]/20 transition-colors duration-300">
                 <Linkedin className="w-5 h-5" />
               </a>
             </div>
@@ -67,7 +67,7 @@ const Footer: React.FC = () => {
                 <li key={item}>
                   <a 
                     href="#"
-                    className="text-white/70 hover:text-[#ff00ff] transition-colors duration-300"
+                    className="text-white/70 hover:text-[#22c55e] transition-colors duration-300"
                   >
                     {item}
                   </a>
@@ -85,7 +85,7 @@ const Footer: React.FC = () => {
               </div>
               
               <div className="flex items-start gap-3">
-                <Phone className="w-5 h-5 text-[#ff00ff] mt-1" />
+                <Phone className="w-5 h-5 text-[#22c55e] mt-1" />
                 <p className="text-white/70">+1 (555) 123-4567</p>
               </div>
               
@@ -94,11 +94,11 @@ const Footer: React.FC = () => {
                   <input 
                     type="email" 
                     placeholder="Your email" 
-                    className="w-full bg-white/5 border border-white/10 rounded-full px-4 py-2 focus:outline-none focus:border-[#9d00ff] transition-colors"
+                    className="w-full bg-white/5 border border-white/10 rounded-full px-4 py-2 focus:outline-none focus:border-[#22c55e] transition-colors"
                   />
                   <button 
                     type="submit" 
-                    className="absolute right-1 top-1 bg-gradient-to-r from-[#ff00ff] to-[#9d00ff] rounded-full px-4 py-1 text-sm"
+                    className="absolute right-1 top-1 bg-gradient-to-r from-[#00ff9d] to-[#22c55e] rounded-full px-4 py-1 text-sm"
                   >
                     Subscribe
                   </button>

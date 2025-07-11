@@ -28,7 +28,7 @@ function App() {
   return (
     <Router>
       <AnimationProvider>
-        <div className="min-h-screen bg-gradient-to-b from-black to-[#1a0033] text-white overflow-hidden">
+        <div className="min-h-screen bg-gradient-to-b from-black to-[#0a1a0a] text-white overflow-hidden">
           <Header />
           <main>
             <Routes>

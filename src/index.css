@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 :root {
-  --neon-pink: #ff00ff;
   --neon-green: #00ff9d;
-  --dark-purple: #9d00ff;
+  --bright-green: #22c55e;
+  --dark-green: #16a34a;
   --black: #000000;
 }
 
